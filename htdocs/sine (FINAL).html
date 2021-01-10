@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TrigoKNOWmetry: Sine Page</title>
+		
+		<!--meta tags-->
+		<meta charset="UTF-8">
+		<meta name="author" content="John David Magnaye">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="revised" content="10-11-2020">
+		
+		<!--link tags-->
+		<link rel="icon" href="..\images\TrigoKNOWmetry Icon.png" type="image/png">
+		<link rel="stylesheet" href="../css/TrigoKNOWmetry.css">
+		
+		<style>
+			.HomeNavBar {
+				transition: transform 0.2s;
+			}
+			
+			.HomeNavBar:hover {
+				transform: scale(1.20);
+			}
+			
+			li > figcaption:hover {
+				color: #00587a;
+			}
+		</style>
+		
+	</head>
+
+	<body>
+		<div class="background"></div>		<!--acts as border for the whole webpage-->
+		<section class="foreground" style="padding: 10px; width: 80%;">		<!--main content box-->
+		
+			<nav class="homeNavBar">
+			
+				<ul class="iconNavBar" style="margin: 0px;">		<!--Image links to other webpages (only the link to Definitions Page is functional-->
+			
+					<li><img src="..\images\TrigoKNOWmetry Icon.png" alt="TrigoKNOWmetry Icon" style="height: 60px;
+					width: 60px; float: left;" class="logo">
+					<h1 style="color: #e7e7de;">TrigoKNOWmetry</h1></li>
+					
+					<li class="HomeNavBar">		<!--link to home page-->
+						<a href="../index.html">
+							<img src="..\images\home icon.png"  
+							alt="Link to Home Page" title="Home Page" style="height: 60px; width: 60px;">HOME
+						</a>
+					</li>
+					
+					<li class="HomeNavBar"> <!--link to introduction page-->
+						<a href="introduction (FINAL).html">
+							<img src="..\images\introduction Icon.png" 
+							alt="Link to Introduction Page" title="Introduction Page" style="height: 60px; width: 60px;">INTRODUCTION
+						</a>
+					</li>
+				
+					<li class="HomeNavBar">		<!--link to definitions page-->
+						<a href="definitions (FINAL).html">
+							<img src="..\images\definition icon.png" 
+							alt="Link to Definitions Page" title="Definitions Page" style="height: 60px; width: 60px;">DEFINITIONS
+						</a>
+					</li>
+				
+					<li class="HomeNavBar">		<!--link to cosine page-->
+						<a href="cosine (FINAL).html">
+							<img src="..\images\cosine wave.png"  
+							alt="Link to Cosine Page" title="Cosine Page" style="height: 60px; width: 60px;">COSINES
+						</a>
+					</li>
+				
+					<li class="HomeNavBar">		<!--link to tangent page-->
+						<a href="../index.html">
+							<img src="..\images\tangent wave.png" 
+							alt="Link to Tangent Page" title="Tangent Page" style="height: 60px; width: 60px;">TANGENTS
+						</a>
+					</li>
+					
+					<li class="HomeNavBar">		<!--link to other functions page-->
+						<a href="../index.html">
+							<img src="..\images\other functions icon.png" 
+							alt="Link to Other Functions Page" title="Other Functions Page" style="height: 60px; width: 60px;">OTHER FUNCTIONS
+						</a>
+					</li>
+				
+					<li class="HomeNavBar">		 <!--link to inverse functions page-->
+						<a href="../index.html">
+							<img src="..\images\inverse icon.png" 
+							alt="Link to Inverse Functions Page" title="Inverse Functions Page" style="height: 60px; width: 60px;">INVERSE FUNCTIONS
+						</a>
+					</li>
+				
+					<li class="HomeNavBar">		<!--link to formula and theorems page-->
+						<a href="../index.html">
+							<img src="..\images\formula icon.png" 
+							alt="Link to Formulas and Theorems Page" title="Formulas and Theorems Page" style="height: 60px; width: 60px;">FORMULAS & THEOREMS
+						</a>
+					</li>
+				</ul>
+				
+			</nav>
+			
+			<section class="main-text" style="float: left; width: 75%;">
+			
+				<figure style="display: block;">	
+					<img id="logo" src="..\images\sine-wave.png">		<!--webpage logo-->
+				</figure>
+			
+				<header>
+				<strong><span class="WebpageTitle">SINES</span><strong>		<!--webpage title-->
+				</header>
+			
+				<hr size="7.5" noshade color="#008891" width="95%">		<!--horizontal rule for division of parts-->
+				
+		
+				<section id="sineDefinition">	<!--definition of sine-->
+				
+					<header>
+						<h2>DEFINITION</h2>
+					</header>
+				
+					<hr size="3" noshade color="#008891" width="95%">
+					<h2>SINE</h2>
+			
+					<em>
+						<p>NOUN</p>
+						<p>-a trigonometric function that for an acute angle is the ratio between the leg opposite
+						the angle when it is considered part of a right triangle and the hypotenuse (Merriam-Webster)</p>
+					</em>
+				</section>
+				
+				
+				<hr size="2" noshade color="#008891" width="95%">
+				
+				
+				<section id="sineFormula">		<!--formula for sines-->
+				
+					<header>
+						<h2>SINE FORMULA</h2>
+					</header>
+			
+					<figure style="text-align: center;">
+						<img src="..\images\SOHCAHTOA.png" style="height: 400px; box-shadow: 10px 10px 10px grey;">
+						<figcaption class="highlight-term"> Figure 2.1. Parts of a right triangle given an angle θ </figcaption>
+					</figure>
+				
+					<p>Given one right triangle and an acute angle θ, <span class="highlight-term"><em>sin θ</em> = <sup>opposite</sup> &frasl;<sub>hypotenuse</sub></span>. This is 
+					part of the famous mnemonic "SOH-CAH-TOA" students use to memorize trigonometric equations. SOH-CAH-TOA means Sine = Opposite/Hypotenuse, 
+					Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent. </p>
+				
+					<figure style="text-align: center; float: right;">
+						<img src="..\images\306090.png" style="height: 300px; box-shadow: 10px 10px 10px grey;">
+						<figcaption class="highlight-term"> Figure 2.2. 30-60-90 triangles. </figcaption>
+					</figure>
+				
+					<br><br>
+				
+					<p>For example, sin(30<sup>o</sup>) &nbsp; = &nbsp; <sup>a</sup> &frasl;<sub>2a</sub> &nbsp; = &nbsp; <sup>3</sup> &frasl;
+					<sub>6</sub> &nbsp; = &nbsp; <sup>1</sup> &frasl;<sub>2</sub>.</p>
+					<p>However, sin(0°), sin(90°), sin(180°), sin(270°) are special values because the opposite sides of each angle are congruent to the 
+					hypotenuses. 
+					<p>NOTE: The sine of an angle is the same no matter how big or how small the triangle is. </p>
+					
+				</section>
+				
+				
+				<hr size="5" noshade color="#008891" width="95%">	<!--horizontal rule for division of parts-->
+				
+				
+				<section id="sineUnitCircle"> <!--sine and the unit circle-->
+				
+					<header>
+						<h2>SINE in the UNIT CIRCLE</h2>
+					</header>
+				
+					<figure style="text-align: center; float: left; height: 500px;">
+						<img src="..\images\SineAndUnitCircle.png" style="width: 400px; height: 400px; box-shadow: 10px 10px 10px grey;">
+						<figcaption class="highlight-term"> Figure 2.3. The values of sine in specific angles in the Unit Circle </figcaption>
+					</figure>
+				
+					<br>
+			
+					<p>The Unit Circle is a circle in the Cartesian Plane with center at (0,0) and with a radius of 1 unit.
+					Interestingly enough, if you form a right triangle with two vertices at the x-axis and one vertex on the 
+					Unit Circle, the value of the sine of that angle is the <em class="highlight-term"> y-coordinate of the vertex at the circle </em>. </p>
+			
+					<p> Here we can see that
+					for Quadrant I (0 to 90 degrees) and Quadrant II (90 to 180 degrees), the values of sines are positive while
+					for Quadrant III (180 to 270 degrees) and Quadrant IV (270 to 360 degrees), the values for the sine is negative.
+					This is because the y-coordinates of points in Quadrants I and II are positive while the y-coordinates of points 
+					in Quadrants III and IV are negative. </p>
+				
+					<p> It is also observable that sin(0°) = 0, sin(90°) = 1, sin(180°) = 0, sin(270°) = -1. The sine values of 
+					each angle are still equal to the y-coordinates of their respective points.</p>
+			
+					<figure style="text-align: center; float: right; height: 500px;">
+						<img src="..\images\GeneralCircle.png" style="width: 400px; height: 400px; box-shadow: 10px 10px 10px grey;">
+						<figcaption class="highlight-term">Figure 2.4. An arbitrary circle centered at (0,0). </figcaption>
+					</figure>
+				
+					<br><br>
+				
+					<p> A more general illustration is an arbitrary circle. Given an arbitrary circle centered at (0,0) with radius r
+					on the Cartesian Plane which passes through P(x,y) at an angle θ, sinθ = <sup>y</sup> &frasl; <sub>r</sub>.</p>
+				
+				</section>
+				
+				
+				<hr size="5" noshade color="#008891" width="95%">	<!--horizontal rule for division of parts-->
+				
+				
+				<section id="tableOfSines">		<!--table of sines-->
+				
+					<header>
+						<h2>TABLE OF SINES</h2>
+					</header>
+					
+					<p>There are 16 special values for sines at 16 particular angles. Here are the 16 most common 
+					sine values:</p>
+				
+					<table style="text-align: center; border: 3px solid #008891; width: 75%;">
+						<caption>Table 2.5. The table of sines.</caption>
+					
+						<tr>
+							<th style="border: 3px solid #008891;" colspan="2">ANGLE (θ)</th>
+							<th style="border: 3px solid #008891;" rowspan="2">SIN θ</th>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">Degrees</td>
+							<td style="border: 3px solid #008891;">Radians</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">0°</td>
+							<td style="border: 3px solid #008891;">0</td>
+							<td style="border: 3px solid #008891;">0</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">30°</td>
+							<td style="border: 3px solid #008891;">π/6</td>
+							<td style="border: 3px solid #008891;">1/2</td>
+						</tr>
+						
+						<tr>
+							<td style="border: 3px solid #008891;">45°</td>
+							<td style="border: 3px solid #008891;">π/4</td>
+							<td style="border: 3px solid #008891;">√2/2</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">60°</td>
+							<td style="border: 3px solid #008891;">π/3</td>
+							<td style="border: 3px solid #008891;">√3/2</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">90°</td>
+							<td style="border: 3px solid #008891;">π/2</td>
+							<td style="border: 3px solid #008891;">1</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">120°</td>
+							<td style="border: 3px solid #008891;">2π/3</td>
+							<td style="border: 3px solid #008891;">√2/2</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">135°</td>
+							<td style="border: 3px solid #008891;">3π/4</td>
+							<td style="border: 3px solid #008891;">√2/2</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">150°</td>
+							<td style="border: 3px solid #008891;">5π/6</td>
+							<td style="border: 3px solid #008891;">1/2</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">180°</td>
+							<td style="border: 3px solid #008891;">π</td>
+							<td style="border: 3px solid #008891;">0</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">210°</td>
+							<td style="border: 3px solid #008891;">7π/6</td>
+							<td style="border: 3px solid #008891;">-1/2</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">225°</td>
+							<td style="border: 3px solid #008891;">5π/4</td>
+							<td style="border: 3px solid #008891;">-√2/2</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">240°</td>
+							<td style="border: 3px solid #008891;">4π/3</td>
+							<td style="border: 3px solid #008891;">-√3/2</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">270°</td>
+							<td style="border: 3px solid #008891;">3π/2</td>
+							<td style="border: 3px solid #008891;">-1</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">300°</td>
+							<td style="border: 3px solid #008891;">5π/3</td>
+							<td style="border: 3px solid #008891;">√-3/2</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">315°</td>
+							<td style="border: 3px solid #008891;">7π/4</td>
+							<td style="border: 3px solid #008891;">-√2/2</td>
+						</tr>
+					
+						<tr>
+							<td style="border: 3px solid #008891;">330°</td>
+							<td style="border: 3px solid #008891;">11π/6</td>
+							<td style="border: 3px solid #008891;">-1/2</td>
+						</tr>
+					</table>
+				
+					<p>
+						<em>NOTES: 
+							<ul>
+								<li>Table 2.5 is the same with Figure 2.3, just in tabular form.</li>
+								<li> π radians is equal to 180°.</li>
+							</ul>
+						</em>
+					</p>
+					
+				</section>
+				
+				
+				<hr size="5" noshade color="#008891" width="95%">	<!--horizontal rule for division of parts-->
+				
+				
+				<section id="sineNegativeAngles">
+				
+					<header>
+						<h2>SINES OF NEGATIVE ANGLES</h2>
+					</header>
+					
+					<figure style="text-align: center; float: left;">
+						<img src="..\images\NegativeAngle.png" style="height: 400px; box-shadow: 10px 10px 10px grey;">
+						<figcaption> Figure 2.6. A 30-degree triangle with its corresponding negative angle.</figcaption>
+					</figure>
+				
+					<p> Given an angle θ, sin(-θ) = -sin(θ).</p>
+					<p> This is because when you take -θ, the angle is reflected along the x-axis, meaning it will have 
+					the negative y-coordinate of the initial angle θ. A negative y-coordinate would mean a negative sine value.</p>
+				
+					<p> For instance, sin(-30°) = -(√3/2) = -√3/2 = -sin(30°). This is also true for negative angles themselves.
+					For example, sin(30°) = (√3/2) = -(-√3/2) = -sin(-30°). 
+				
+				</section>
+				
+				
+				<hr size="5" noshade color="#008891" width="95%">	<!--horizontal rule for division of parts-->
+			
+			
+				<section id="sineCoterminalAngles">
+				
+					<header>
+						<h2>SINES OF ANGLES GREATER THAN 360°</h2>
+					</header>
+					
+					<figure style="text-align: center; float: right; height: 430px;">
+						<img src="..\images\CoterminalAngles.png" style="height: 400px; box-shadow: 10px 10px 10px grey;">
+						<figcaption class="highlight-term"> Figure 2.7. Coterminal Angles. </figcaption>
+					</figure>
+				
+					<p> Given an angle θ ≥ 360° , sin(θ) = sin(θ mod 360°) where θ mod 360° is the remainder when θ is divided 
+					by a full-circle revolution or 360°.</p>
+				
+					<p> This is because when you take θ, there is a reference angle that is coterminal with θ. These reference 
+					angles are not affected by a full revolution because full revolutions would return an angle to its original 
+					position. </p>
+				
+					<p> For instance, sin(405°) = sin(405°-360°) = sin(45°) = sin(45°-360°) = sin(-315°) = √2/2.</p>
+				
+					<br><br>
+					
+				</section>
+				
+				
+				<hr size="5" noshade color="#008891" width="95%">	<!--horizontal rule for division of parts-->
+				
+				
+				<section id="sineCurve">
+				
+					<header>
+						<h2>THE SINE CURVE</h2>
+					</header>
+					
+					<figure style="text-align: center; height: 500px;">
+						<img src="..\images\SineCurve.png" style="height: 400px; box-shadow: 10px 10px 10px grey;">
+						<figcaption class="highlight-term"> Figure 2.8. The Sine Curve or the graph of y = sinθ </figcaption>
+					</figure>
+					
+					<p> The graph above is the graph of y = sinθ. It is a continuous and oscillating graph.
+					There are two main things to notice here: amplitude, and period.
+					Since y = sinθ is the default function for all sine functions, the properties of its graph also have
+					default values.  </p>
+					
+					<p> The amplitude of a sine graph is the height from the center line to the crest or trough (or in other words, 
+					the total height of the graph divided by 2). The period of the sine graph is the length of one cycle of the curve.
+					The function above has an amplitude of 1 and a period of 2π.</p>
+					
+					<figure style="float: right; text-align: center;">
+						<img src="..\images\GraphProperties.png" style="box-shadow: 10px 10px 10px grey;">
+						<figcaption class="highlight-term"> Figure 2.9. The general sine function and its properties. </figcaption>
+					</figure>
+					
+					<p> In general, the equation of a sine function is y = A sin(B(θ+c)) + D. The amplitude of the sine function is 
+					equal to A. The period is equal to 2π/B. Two other properties, vertical shift and phase shift, determine the length 
+					of vertical shift and horizontal shift from the original graph, respectively.</p> 
+				</section>
+				
+				
+				<hr size="5" noshade color="#008891" width="95%">	<!--horizontal rule for division of parts-->
+				
+				
+				<section class="References">	<!--Citation of reference used for this webpage-->
+				
+					<header>
+						<h3>References</h3>
+					</header>
+					
+					<ul>
+						<li><em>A quick guide to the 30-60-90 degree triangle</em>. (2020, July 6). Dummies. 
+						<a href="https://www.dummies.com/education/math/calculus/quick-guide-to-the-30-60-90-degree-triangle/">
+						https://www.dummies.com/education/math/calculus/quick-guide-to-the-30-60-90-degree-triangle/</a></li>
+						
+						<li><em>Graphs of sine, cosine and tangent</em>. (n.d.). Math Is Fun. Retrieved January 10, 2021, from 
+						<a href="https://www.mathsisfun.com/algebra/trig-sin-cos-tan-graphs.html">
+						https://www.mathsisfun.com/algebra/trig-sin-cos-tan-graphs.html</a></li>
+						
+						<li>Khizhnjak, N. (2019, November 25). <em>Unit circle</em>. Mathematics For Blondes.
+						<a href="https://www.mathforblondes.com/2015/11/unit-circle.html">
+						https://www.mathforblondes.com/2015/11/unit-circle.html</a></li>
+						
+						<li><em>Math forum - ask Dr. Math</em>. (2003, May 6). Math Forum.
+						<a href="https://www.nctm.org/tmf/library/drmath/view/62892.html">
+						https://www.nctm.org/tmf/library/drmath/view/62892.html</a></li>
+						
+						<li>Pamuła, H. (2020, February 6). <em>Coterminal angle calculator</em>. Omni Calculator. 
+						<a href="https://www.omnicalculator.com/math/coterminal-angle">
+						https://www.omnicalculator.com/math/coterminal-angle</a></li>
+						
+						<li><em>Sohcahtoa: Sine, cosine, tangent</em>. (n.d.). Math Is Fun. Retrieved January 10, 2021, from
+						<a href="https://www.mathsisfun.com/algebra/sohcahtoa.html">
+						https://www.mathsisfun.com/algebra/sohcahtoa.html</a></li>
+						
+						<li><em>Trigonometry: Negative angle identities</em>. (n.d.). Expii. Retrieved January 10, 2021, from
+						<a href="https://www.expii.com/t/trigonometry-negative-angle-identities-5261">
+						https://www.expii.com/t/trigonometry-negative-angle-identities-5261</a></li>
+						
+					</ul>
+					
+				</section>
+				
+				
+				<!--footer of the webpage-->
+				<footer style="padding: 5px;">
+					
+					<table style="width:100%; height:30px; color:#e7e7de;">
+						<tr>
+							<th>EMAIL ADDRESS: b24.john.magnaye@pshs.edu.ph </th>
+							<th>TELEPHONE/MOBILE NUMBER: 88724358</th>
+							<th>SHARE</th>
+						</tr>						
+					</table>
+					
+					<p style="color: #e7e7de;">MESSAGE OR FOLLOW ME: </p>
+					
+					<nav class="socialMediaLinks">
+						<ul class="socialMedia" style="text-align: center;">
+						
+							<li>
+								<figure style="text-align: center;">
+									<a href="https://www.facebook.com/dmagnaye.224"  class="Facebook"></a>
+									<figcaption style="color: #e7e7de;">Facebook: David Magnaye</figcaption>
+								</figure>
+							</li>
+							
+							<li>
+								<figure style="text-align: center;">
+									<a href="https://twitter.com/iamdmagnaye" class="Twitter"></a>
+									<figcaption style="color: #e7e7de;">Twitter: @iamdmagnaye</figcaption>
+								</figure>
+							</li>
+							
+							<li>
+								<figure style="text-align: center;">
+									<a href="https://www.instagram.com/davidmagnaye_/"  class="Instagram"></a>
+									<figcaption style="color:#e7e7de;">Instagram: davidmagnaye_ </figcaption>
+								</figure>
+							</li>
+						</ul>
+					</nav>
+						
+				</footer>
+					
+			</section>
+		</section>
+	</body>
+</html>
